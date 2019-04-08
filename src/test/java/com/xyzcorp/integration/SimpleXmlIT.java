@@ -1,4 +1,4 @@
-package com.xyzcorp;
+package com.xyzcorp.integration;
 
 import com.consol.citrus.annotations.CitrusXmlTest;
 import com.consol.citrus.dsl.junit.JUnit4CitrusTest;
