@@ -35,7 +35,7 @@ Outline:
   * RMI
   * JMS
 * Citrus Admin Web
-* Competitor: Testcontainer.org
+* Competitor: https://www.testcontainers.org/
 * Conclusion
 
 
