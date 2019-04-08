@@ -1,0 +1,23 @@
+<spring:beans
+        xmlns="http://www.citrusframework.org/schema/testcase"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:spring="http://www.springframework.org/schema/beans"
+        xsi:schemaLocation="
+  http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.citrusframework.org/schema/testcase
+  http://www.citrusframework.org/schema/testcase/citrus-testcase.xsd">
+    <testcase name="SimpleEndPointIT">
+        <description>
+            Exhibiting an endpoint
+        </description>
+        <variables>
+            <variable name="text" value="Hello Test Framework"/>
+        </variables>
+        <actions>
+            <echo>
+                <message>${text}</message>
+            </echo>
+        </actions>
+    </testcase>
+</spring:beans>
